@@ -2,7 +2,7 @@ import { InjectableRxStompConfig } from '@stomp/ng2-stompjs';
 
 export const myRxStompConfig: InjectableRxStompConfig = {
     // Which server?
-    brokerURL: 'ws://localhost:8080/websocket',
+    brokerURL: 'ws://springboot-bend:8080/websocket',
 
     // Headers
     // Typical keys: login, passcode, host
