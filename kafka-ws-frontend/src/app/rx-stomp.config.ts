@@ -2,7 +2,7 @@ import { InjectableRxStompConfig } from '@stomp/ng2-stompjs';
 
 export const myRxStompConfig: InjectableRxStompConfig = {
     // Which server?
-    brokerURL: 'ws://kafka.gopaddle.io:8080/websocket',
+    brokerURL: 'wss://kafka.gopaddle.io:8080/websocket',
 
     // Headers
     // Typical keys: login, passcode, host
