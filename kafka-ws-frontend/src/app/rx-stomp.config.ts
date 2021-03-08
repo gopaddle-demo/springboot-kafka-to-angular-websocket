@@ -2,7 +2,7 @@ import { InjectableRxStompConfig } from '@stomp/ng2-stompjs';
 
 export const myRxStompConfig: InjectableRxStompConfig = {
     // Which server?
-    brokerURL: 'ws://34.71.165.150:30007/websocket',
+    brokerURL: 'ws://34.71.167.84:30001/websocket',
 
     // Headers
     // Typical keys: login, passcode, host
